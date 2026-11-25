@@ -64,5 +64,11 @@ Opção 2: Windsor.ai (create_image_post / create_carousel_post / create_video_p
 - Foto ou vídeo com pessoa: a pessoa principal fica CENTRALIZADA no quadro. Texto nunca em cima do rosto.
 - TUDO o que o Israel mandar (vídeo, foto, print, link) é para POSTAR (regra dele, 25/11/2026). Conferir os fatos e escrever com atribuição;
   o que não tiver confirmação oficial sai como relato ("vídeo enviado ao Portal USA", "alerta nas redes"), nunca como fato confirmado.
-- NÃO tirar o áudio nem cortar partes do vídeo sem o Israel pedir (regra dele, 25/11/2026). Vale também para vídeo de
-  outra emissora: vai inteiro, com o áudio original. Só fazer a edição para postar (moldura, título, legenda).
+- EDIÇÃO DE VÍDEO (regra do Israel, 25/11/2026): pode editar (ele gostou do Reels do USCIS), mas COM CUIDADO:
+  - Não tirar o áudio original sem ele pedir.
+  - Cortar só o que não faz falta. Nunca cortar a abertura que explica o assunto: se a fala seguinte diz
+    "uma das mudanças...", a parte que diz QUE mudança é essa tem que ficar. Antes de postar, assistir/ler a transcrição
+    do corte final e conferir se a história faz sentido do começo ao fim para quem nunca ouviu falar do assunto.
+  - Partes boas (fala de especialista, comentário que explica) ficam.
+- CAPA DO REELS: sempre fazer uma capa caprichada (quadro forte do vídeo + título grande na moldura) e mandar como
+  URL_CAPA no publicar_meta.py reels. Nunca deixar a capa automática.
