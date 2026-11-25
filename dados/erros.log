@@ -2,3 +2,4 @@
 2026-11-25T12:01Z ERRO DE REDE (coletar.py): www.gazetanews.com bloqueado (proxy 403); rodada parada, Israel avisado
 2026-11-25T16:16Z ERRO DE REDE (coletar.py): thehill.com bloqueado (403) na pauta 'governo admite ter deportado cidadao americano (Brian Morales Garcia)'; rodada parada sem publicacao
 2026-11-25T18:17Z ERRO DE REDE (coletar.py): documentedny.com 403 na pauta 'roubo de salarios em NY' (sem 2a fonte nem foto); rodada sem publicacao
+2026-11-25T19:16Z ERRO DE REDE (coletar.py): qz.com 403; foto obtida em riotimesonline.com
