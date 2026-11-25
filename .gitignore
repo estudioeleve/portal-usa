@@ -2,3 +2,7 @@
 *.token
 chave*
 __pycache__/
+# fotos brutas do coletar.py (podem ter rosto de imigrante; repositório é público)
+dados/feed/fotos/[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]-[0-9]*.jpg
+dados/feed/fotos/coleta.json
+__pycache__/
