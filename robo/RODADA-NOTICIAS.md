@@ -18,7 +18,10 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
    - Título forte, verdadeiro, até ~90 caracteres, sem ponto final.
    - Título na arte: no máximo 3 linhas, todas do MESMO tamanho (padrão do Israel). Nunca linha cheia em cima
      e 1 ou 2 palavras embaixo. O script recusa título desequilibrado: aí reescreva o título e rode de novo.
-   - Sem foto (o ambiente não baixa imagens de outros sites). Nunca escrever "imagem ilustrativa"/"imagem conceitual".
+   - A arte segue a MOLDURA OFICIAL do feed (molduras/portal-usa-moldura-feed.png): foto cheia, logo no canto superior
+     esquerdo, degradê no rodapé, chip vermelho, título e @portalusanews. Nunca outro layout.
+   - Com foto (ex.: enviada pelo Israel): acrescente no fim do comando o arquivo da foto e "Foto: crédito".
+   - Sem foto (o ambiente não baixa imagens de outros sites): o script põe a bandeira dos EUA balançando no lugar da foto. Nunca escrever "imagem ilustrativa"/"imagem conceitual".
    - Se o Pillow faltar: pip install pillow --break-system-packages
 6. Legenda (nesta ordem):
    - Título com 1 emoji no início (🚨 só para urgente; 🇺🇸 📍 ⚠️ 📄 💼 conforme o tema)
