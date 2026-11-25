@@ -20,16 +20,24 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
      e 1 ou 2 palavras embaixo. O script recusa título desequilibrado: aí reescreva o título e rode de novo.
    - A arte segue a MOLDURA OFICIAL do feed (molduras/portal-usa-moldura-feed.png): foto cheia, logo no canto superior
      esquerdo, degradê no rodapé, chip vermelho, título e @portalusanews. Nunca outro layout.
-   - FOTO É OBRIGATÓRIA (regra do Israel, 25/11/2026): SEMPRE usar a foto do fato, tirada da matéria da fonte
-     (a foto principal da notícia ou um print dela). Nunca postar só com a bandeira.
-     Como pegar: abrir a matéria com o Chromium/Playwright (modelos/shot.py) e salvar a foto principal ou um print
-     do recorte da foto (sem textos, logos ou anúncios do outro site) em dados/feed/fotos/.
+   - FOTO DA FONTE (regra do Israel, 25/11/2026 — igual ao robô do Portal ONE News). Nunca postar só com a bandeira.
+     a) `python3 robo/coletar.py LINK_DA_MATERIA` → baixa a foto principal (og:image) em dados/feed/fotos/,
+        apara as bordas (robo/aparar.py) e grava o crédito da figcaption em dados/feed/fotos/coleta.json.
+     b) ABRA e OLHE a foto. Só serve se: for do fato (nada de foto de arquivo antiga ou genérica); nítida, boa
+        resolução, sem estar escura/tremida/borrada; assunto principal no centro, sem cabeça cortada; sem marca
+        d'água nem logo de outro veículo (se tiver, cubra ou desfoque); sem rosto de imigrante sem documento.
+     c) Não serviu → outra matéria do mesmo fato: `python3 robo/coletar.py OUTRO_LINK --anexar`.
+        Nenhuma serviu → NÃO publique. Nunca invente imagem, nunca use foto ruim.
+     d) A foto preenche o quadro inteiro da moldura (zoom se precisar); texto nunca em cima de rosto ou cabeça.
+     e) Crédito na legenda e na arte: "Foto: NOME / VEÍCULO" (sem nome: "Foto: reprodução / VEÍCULO").
+     f) Erro de rede no download (403/bloqueado; o coletar.py sai com "ERRO DE REDE"): PARE, escreva em
+        dados/erros.log e avise o Israel. Não tente outro caminho.
+     - Dependências: pip install requests trafilatura beautifulsoup4 ftfy pillow --break-system-packages
    - TAPAR O ROSTO: antes de usar, rode `python3 robo/tapar_rosto.py foto.jpg foto_tapada.jpg` e OLHE o resultado.
      Todo rosto de imigrante (e de menor) tem que estar irreconhecível. Se sobrou rosto, tape com
      `--caixa x,y,largura,altura` (pode repetir). Rosto de autoridade pública (agente identificado, político) pode ficar.
-   - Depois: acrescente no fim do comando da arte o arquivo da foto tapada e "Foto: NOME DO VEÍCULO".
-   - Se o ambiente não conseguir baixar a foto (site bloqueado na rede), NÃO publique: escreva em dados/erros.log
-     "sem foto: <site> bloqueado", faça commit e pare. Nunca escrever "imagem ilustrativa"/"imagem conceitual".
+   - Depois: acrescente no fim do comando da arte o arquivo da foto tapada e o crédito "Foto: NOME / VEÍCULO".
+   - Nunca escrever "imagem ilustrativa"/"imagem conceitual".
    - Dependências: pip install pillow "opencv-python-headless<5" --break-system-packages
 6. Legenda (nesta ordem):
    - Título com 1 emoji no início (🚨 só para urgente; 🇺🇸 📍 ⚠️ 📄 💼 conforme o tema)
