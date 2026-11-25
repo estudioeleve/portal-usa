@@ -55,3 +55,10 @@ Opção 2: Windsor.ai (create_image_post / create_carousel_post / create_video_p
 
 ## SEGURANÇA DAS CHAVES
 - NUNCA gravar token/chave no repositório (é público) nem colar em conversa. Guardar no cofre do Claude: claude.ai/code → ambiente → engrenagem → Network secrets (ver ETAPA 7 do passo a passo).
+
+
+## MATERIAL QUE O ISRAEL MANDA (regra dele, 24/11/2026)
+- Quando o Israel mandar vídeo, foto e/ou print de outra matéria: ler o print/assistir o vídeo e fazer a notícia a partir disso (título, texto, "O que isso muda pra você", legenda). Conferir os fatos na web antes de publicar.
+- Vídeo VERTICAL: vai na moldura de Reels vertical INTEIRO, sem cortar nenhuma parte, aumentado o máximo possível dentro da moldura (sem esticar/deformar).
+- Vídeo HORIZONTAL: usa a moldura horizontal (portal-usa-moldura-reelsh).
+- Foto ou vídeo com pessoa: a pessoa principal fica CENTRALIZADA no quadro. Texto nunca em cima do rosto.
