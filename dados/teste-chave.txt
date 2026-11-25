@@ -1,0 +1,4 @@
+Teste da chave da Meta
+Data/hora: 2026-11-25 01:58:14 UTC
+Resultado: OK
+quota_usage: 0 de 100 (janela de 86400 s)
