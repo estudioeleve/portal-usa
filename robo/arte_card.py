@@ -170,7 +170,7 @@ def montar(editoria, titulo, fonte_txt, saida, foto=None, credito=None):
     img = foto_preenchida(foto) if foto else bandeira_fundo()
     img = degrade(img)
     d = ImageDraw.Draw(img)
-    lg = logo_oficial(275)
+    lg = logo_oficial(193)  # 30% menor (Israel, 25/11/2026)
     img.paste(lg, (80, 64), lg)
     if foto and credito:
         fcr = fonte("Poppins-Regular.ttf", 18)
