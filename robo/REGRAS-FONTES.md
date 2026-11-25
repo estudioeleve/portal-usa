@@ -19,6 +19,16 @@ Aprovado pelo Israel em 24/11/2026. Notícias para imigrantes brasileiros nos EU
 - Brasileiros nos Estados Unidos: brasileirosnosestadosunidos.com
 - RLS Media — Newark (NJ): rlsmedia.com/nj/newark (fonte nova do Israel, 25/11/2026)
 
+## 1b. Perfis de referência no Instagram (pauta) — pedido do Israel, 25/11/2026
+- @voupraamerica (Vou pra América): olhar em TODA rodada para achar pauta.
+  Puxar os posts recentes pela API da Meta (business_discovery):
+  GET /{ig_user_id}?fields=business_discovery.username(voupraamerica){media.limit(30){caption,timestamp,like_count,comments_count,permalink}}
+- Como usar: o post deles é PISTA. Achar a fonte original do fato (agência, órgão oficial, jornal),
+  conferir e escrever o NOSSO texto na nossa voz, com a foto da fonte original (coletar.py).
+  Não copiar a legenda nem a arte deles (texto e arte têm dono; crédito não libera a cópia).
+  Na legenda, a fonte é a fonte original; pode acrescentar "Via @voupraamerica" quando a pauta veio deles.
+- O que mais engaja neles: imigração/green card, pane e bolso (bancos, preços), clima extremo, urgente/guerra.
+
 ## 2. Imigração e deportação (fatos e dados)
 - Oficiais: ice.gov (newsroom), uscis.gov, cbp.gov, justice.gov/eoir, Itamaraty e consulados (alertas a brasileiros)
 - Dados: tracreports.org (TRAC Immigration), relatórios de detenção do ICE, migrationpolicy.org
