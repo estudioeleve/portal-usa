@@ -31,6 +31,7 @@ def logo_oficial(largura):
     return lg.resize((largura, alt), Image.LANCZOS)
 
 
+FORCAR = os.environ.get("FORCAR_TITULO") == "1"  # só para teste
 TRACK = -0.035  # letras bem juntas, igual às molduras (letter-spacing -.035em)
 
 
@@ -45,8 +46,8 @@ def texto_junto(d, cx, cy, texto, f, cor):
         x += f.getlength(c) + TRACK * f.size
 
 
-def quebrar_equilibrado(texto, f, larg_max, max_linhas=4):
-    """Escolhe a quebra de linhas com larguras mais parecidas (nada de palavra sozinha)."""
+def quebrar_equilibrado(texto, f, larg_max, max_linhas=3):
+    """Escolhe a quebra (até 3 linhas) com larguras o mais iguais possível (nada de palavra sozinha)."""
     pal = texto.split()
     w = lambda s: larg(s, f)
     melhor = None
@@ -60,7 +61,7 @@ def quebrar_equilibrado(texto, f, larg_max, max_linhas=4):
             ws = [w(l) for l in linhas]
             if max(ws) > larg_max:
                 return
-            custo = (max(ws) - min(ws)) + len(linhas) * 5
+            custo = (max(ws) - min(ws)) * 3 + sum(abs(x - sum(ws) / len(ws)) for x in ws)
             if len(linhas) > 1 and min(len(l.split()) for l in linhas) < 2:
                 custo += 10000
             if melhor is None or custo < melhor[0]:
@@ -81,14 +82,24 @@ def montar(editoria, titulo, fonte_txt, saida):
     d = ImageDraw.Draw(img)
     lg = logo_oficial(520)
     img.paste(lg, ((W - lg.width) // 2, 150))
-    # título: maior fonte que caiba em até 4 linhas equilibradas
-    for tam in range(76, 46, -2):
-        f = fonte("Poppins-Bold.ttf", tam)
-        linhas = quebrar_equilibrado(titulo, f, W - 2 * MARGEM)
-        if linhas:
-            break
-    if not linhas:
-        raise SystemExit("Título longo demais: encurte.")
+    # título: até 3 linhas do MESMO tamanho (padrão aprovado pelo Israel).
+    # Testa vários tamanhos de fonte e fica com o maior cujas linhas fiquem quase iguais
+    # (a mais curta com pelo menos 88% da mais longa). Se nenhum chegar lá, usa o mais equilibrado.
+    opcoes = []
+    for tam in range(78, 46, -2):
+        ft = fonte("Poppins-Bold.ttf", tam)
+        ls = quebrar_equilibrado(titulo, ft, W - 2 * MARGEM)
+        if ls:
+            ws = [larg(l, ft) for l in ls]
+            opcoes.append((min(ws) / max(ws), tam, ft, ls))
+    if not opcoes:
+        raise SystemExit("Título longo demais para 3 linhas: encurte.")
+    boas = [o for o in opcoes if o[0] >= 0.88]
+    razao, tam, f, linhas = boas[0] if boas else max(opcoes, key=lambda o: (o[0], o[1]))
+    if razao < 0.80 and not FORCAR:
+        raise SystemExit(
+            "Título desequilibrado (linhas: " + " | ".join(linhas) + "). "
+            "Reescreva o título (mais curto ou com outras palavras) para as linhas ficarem do mesmo tamanho.")
     alt_l = int(tam * 1.15)
     bloco = alt_l * len(linhas)
     y_tit = 840 - bloco // 2 + 40

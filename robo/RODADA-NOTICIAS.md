@@ -16,6 +16,8 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
 5. Arte: `python3 robo/arte_card.py "EDITORIA" "Título" "Fonte: NOME" dados/feed/AAAA-MM-DD-HHMM-slug.jpg`
    - EDITORIA curta: IMIGRAÇÃO, CONSULADO, TRABALHO, SEGURANÇA, CLIMA, COMUNIDADE, DIREITOS, ECONOMIA.
    - Título forte, verdadeiro, até ~90 caracteres, sem ponto final.
+   - Título na arte: no máximo 3 linhas, todas do MESMO tamanho (padrão do Israel). Nunca linha cheia em cima
+     e 1 ou 2 palavras embaixo. O script recusa título desequilibrado: aí reescreva o título e rode de novo.
    - Sem foto (o ambiente não baixa imagens de outros sites). Nunca escrever "imagem ilustrativa"/"imagem conceitual".
    - Se o Pillow faltar: pip install pillow --break-system-packages
 6. Legenda (nesta ordem):
