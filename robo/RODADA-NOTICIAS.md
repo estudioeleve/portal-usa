@@ -30,8 +30,10 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
         Nenhuma serviu → NÃO publique. Nunca invente imagem, nunca use foto ruim.
      d) A foto preenche o quadro inteiro da moldura (zoom se precisar); texto nunca em cima de rosto ou cabeça.
      e) Crédito na legenda e na arte: "Foto: NOME / VEÍCULO" (sem nome: "Foto: reprodução / VEÍCULO").
-     f) Erro de rede no download (403/bloqueado; o coletar.py sai com "ERRO DE REDE"): PARE, escreva em
-        dados/erros.log e avise o Israel. Não tente outro caminho.
+     f) Erro (regra do Israel, 25/11/2026: "quando der erro resolva e poste"): NÃO pare a rodada.
+        Erro de rede no download (403/bloqueado) → tente a foto em outras matérias do mesmo fato
+        (`--anexar`), inclusive veículos menores; se a foto vier com texto/arte de outro veículo, recorte só a pessoa/assunto.
+        Só desista se nenhuma foto boa do fato existir. Registre o erro em dados/erros.log, mas sem avisar ninguém.
      - Dependências: pip install requests trafilatura beautifulsoup4 ftfy pillow --break-system-packages
    - TAPAR O ROSTO: antes de usar, rode `python3 robo/tapar_rosto.py foto.jpg foto_tapada.jpg` e OLHE o resultado.
      Todo rosto de imigrante (e de menor) tem que estar irreconhecível. Se sobrou rosto, tape com
@@ -52,6 +54,7 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
    - Pegue o hash do commit: `git rev-parse HEAD`.
    - `python3 robo/publicar_meta.py foto "https://raw.githubusercontent.com/estudioeleve/portal-usa/<HASH>/dados/feed/<arquivo>.jpg" "<legenda>"`
    - A chave está no cofre do ambiente (Network secrets, graph.facebook.com). Nunca peça, imprima ou grave a chave.
-   - Erro da Meta: tente mais 1 vez. Persistindo, escreva o erro em `dados/erros.log` (sem chave), faça commit e pare.
+   - Erro da Meta: resolva (confira URL pública, aguarde o container ficar FINISHED, tente de novo). Só desista após 3 tentativas;
+     aí escreva o erro em `dados/erros.log` (sem chave) e faça commit.
 8. Registre em `dados/postados.json`: {"id","titulo","editoria","fonte","link_fonte","media_id","link","data_utc"}. Commit e push.
 9. Não mande notificação para ninguém.

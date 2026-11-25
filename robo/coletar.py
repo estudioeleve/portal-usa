@@ -42,7 +42,7 @@ CA = "/root/.ccr/ca-bundle.crt"
 
 def erro_rede(msg):
     print(f"ERRO DE REDE: {msg}")
-    print("Pare a rodada e avise o Israel. Não tente outro caminho.")
+    print("Tente a foto em outra matéria do mesmo fato (--anexar). Regra do Israel: quando der erro, resolva e poste.")
     sys.exit(2)
 
 
