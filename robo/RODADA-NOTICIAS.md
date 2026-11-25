@@ -6,7 +6,7 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
 ## Em cada rodada
 1. Leia `dados/postados.json` (o que já foi publicado). Nunca repita notícia nem assunto já postado nas últimas 48 h.
 2. Procure notícias NOVAS (últimas ~6 h, no máximo 24 h) com a busca na web, nas fontes da `REGRAS-FONTES.md`
-   (portais brasileiros nos EUA, ice.gov/uscis.gov/consulados, AP, Reuters, BBC Brasil, g1, Folha, UOL).
+   (portais brasileiros nos EUA, RLS Media Newark, ice.gov/uscis.gov/consulados, AP, Reuters, BBC Brasil, g1, Folha, UOL).
    Foco: imigração, deportação, ICE, documentos, consulados, trabalho, custo de vida, segurança, clima extremo
    e fatos das colônias (MA, NJ, NY, CT, FL, PA e outras).
 3. Escolha NO MÁXIMO 1 notícia por rodada — a que mais afeta brasileiros nos EUA.

@@ -9,6 +9,7 @@ Aprovado pelo Israel em 24/11/2026. Notícias para imigrantes brasileiros nos EU
 - AcheiUSA (FL): acheiusa.com
 - The Brasilians (NY): thebrasilians.com
 - Jornal BB / Brazilian Business: journalbb.com
+- RLS Media — Newark (NJ): rlsmedia.com/nj/newark (fonte nova do Israel, 25/11/2026)
 
 ## 2. Imigração e deportação (fatos e dados)
 - Oficiais: ice.gov (newsroom), uscis.gov, cbp.gov, justice.gov/eoir, Itamaraty e consulados (alertas a brasileiros)

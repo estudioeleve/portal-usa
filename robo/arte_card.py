@@ -5,7 +5,7 @@ Não precisa de navegador. Usa o logo oficial (identidade/portal-usa-logo-bandei
 
 Uso:
   python3 robo/arte_card.py "EDITORIA" "Título da notícia" "Fonte: Nome da fonte" saida.jpg [foto.jpg] ["Foto: crédito"]
-Segue a moldura oficial do feed. Sem foto, o fundo é a bandeira dos EUA balançando.
+Segue a moldura oficial do feed. FOTO OBRIGATÓRIA (regra do Israel, 25/11/2026): sem foto, o script recusa.
 """
 import os, sys
 from PIL import Image, ImageDraw, ImageFont
@@ -164,6 +164,8 @@ def degrade(img):
 
 
 def montar(editoria, titulo, fonte_txt, saida, foto=None, credito=None):
+    if not foto or not os.path.exists(foto) or not credito:
+        sys.exit("SEM FOTO: post só com bandeira é proibido. Use robo/coletar.py e passe a foto e o crédito 'Foto: NOME / VEÍCULO'.")
     # MOLDURA OFICIAL DO FEED (molduras/portal-usa-moldura-feed.png / modelos/m_feed.html):
     # foto cheia em cima, logo no canto superior esquerdo, degradê no rodapé, chip vermelho,
     # título branco centralizado em até 3 linhas iguais, @portalusanews embaixo.
