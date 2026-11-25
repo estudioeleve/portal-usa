@@ -88,6 +88,9 @@ def credito_figcaption(soup, foto_url):
         if c:
             legenda = conserta(" ".join(c.get_text(" ").split()))
     nome = ""
+    m0 = re.search(r"([A-Z][\w.'-]+(?: [A-Z][\w.'-]+){1,3})\s*/\s*(?:[\w ]*Photo|AP|Reuters|Getty Images|AFP|EFE|Staff)\b", legenda)
+    if m0:
+        return legenda[:300], m0.group(1).strip()
     m = re.search(r"(?:foto|photo|crédito|credit|imagem|image)\s*[:/-]?\s*(?:by\s+)?([^|()\n]{2,80})", legenda, re.I)
     if m:
         nome = m.group(1).strip(" .-–—")
