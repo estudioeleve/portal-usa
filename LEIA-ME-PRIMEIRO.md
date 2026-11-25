@@ -38,7 +38,7 @@ Leia este arquivo primeiro. Responda sempre em português, de forma curta, com c
 - Sem efeito sonoro que o Israel não tenha mandado.
 
 ## SEGURANÇA DO IMIGRANTE
-- Nunca mostrar rosto ou nome de imigrante sem documento sem autorização dele (risco de deportação). Na dúvida, desfocar.
+- Embaçar rosto SÓ de criança/adolescente/menor de idade (regra do Israel, 25/11/2026). Não embaçar rosto de mais ninguém.
 - Operação do ICE só com fonte confirmada. Sem pânico, sem boato.
 - Menores: nunca identificar.
 

@@ -25,7 +25,7 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
         apara as bordas (robo/aparar.py) e grava o crédito da figcaption em dados/feed/fotos/coleta.json.
      b) ABRA e OLHE a foto. Só serve se: for do fato (nada de foto de arquivo antiga ou genérica); nítida, boa
         resolução, sem estar escura/tremida/borrada; assunto principal no centro, sem cabeça cortada; sem marca
-        d'água nem logo de outro veículo (se tiver, cubra ou desfoque); sem rosto de imigrante sem documento.
+        d'água nem logo de outro veículo (se tiver, cubra ou desfoque); rosto de menor só embaçado.
      c) Não serviu → outra matéria do mesmo fato: `python3 robo/coletar.py OUTRO_LINK --anexar`.
         Nenhuma serviu → NÃO publique. Nunca invente imagem, nunca use foto ruim.
      d) A foto preenche o quadro inteiro da moldura (zoom se precisar); texto nunca em cima de rosto ou cabeça.
@@ -35,9 +35,9 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
         (`--anexar`), inclusive veículos menores; se a foto vier com texto/arte de outro veículo, recorte só a pessoa/assunto.
         Só desista se nenhuma foto boa do fato existir. Registre o erro em dados/erros.log, mas sem avisar ninguém.
      - Dependências: pip install requests trafilatura beautifulsoup4 ftfy pillow --break-system-packages
-   - TAPAR O ROSTO: antes de usar, rode `python3 robo/tapar_rosto.py foto.jpg foto_tapada.jpg` e OLHE o resultado.
-     Todo rosto de imigrante (e de menor) tem que estar irreconhecível. Se sobrou rosto, tape com
-     `--caixa x,y,largura,altura` (pode repetir). Rosto de autoridade pública (agente identificado, político) pode ficar.
+   - TAPAR O ROSTO (regra do Israel, 25/11/2026): embaçar SÓ rosto de criança/adolescente/menor de idade.
+     Não embaçar o rosto de mais ninguém (adultos, imigrantes, autoridades ficam como estão).
+     Se a foto tiver menor: `python3 robo/tapar_rosto.py foto.jpg foto_tapada.jpg` (ou `--caixa x,y,largura,altura`) e OLHE o resultado.
    - Depois: acrescente no fim do comando da arte o arquivo da foto tapada e o crédito "Foto: NOME / VEÍCULO".
    - Nunca escrever "imagem ilustrativa"/"imagem conceitual".
    - Dependências: pip install pillow "opencv-python-headless<5" --break-system-packages
@@ -48,7 +48,7 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
    - Pergunta à comunidade citando a cidade/estado quando houver
    - "Fonte: NOME"
    - Hashtags: #imigrantes #brasileirosnoseua #portalusanews + cidade/estado (ex.: #boston #newark)
-   - NUNCA expor nome ou rosto de imigrante sem documento. Menores: nunca identificar.
+   - NUNCA expor nome de imigrante sem documento. Menores: nunca identificar (rosto embaçado).
 7. Publicar:
    - `git add` a arte e faça commit/push na main (git -c user.name="Robo Portal USA" -c user.email="noreply@anthropic.com").
    - Pegue o hash do commit: `git rev-parse HEAD`.

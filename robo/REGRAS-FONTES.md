@@ -53,6 +53,6 @@ Univision Noticias, Telemundo, El Diario NY, El Nuevo Herald, La Opinión. Usar 
 - Toda notícia fecha com "O que isso muda pra você": o que fazer, a quem ligar (consulado, advogado, entidade de apoio), prazos.
 - Legenda sempre com pergunta à comunidade, citando a cidade quando houver.
 - Indicar entidades de apoio (ex.: Brazilian Worker Center).
-- NUNCA expor rosto ou nome de imigrante sem documento sem autorização (risco de deportação).
+- Embaçar rosto SÓ de menor de idade (regra do Israel, 25/11/2026); não embaçar rosto de mais ninguém.
 - Sem pânico e sem boato: operação do ICE só com fonte confirmada.
 - Nada é postado sem autorização do Israel (prévia primeiro).
