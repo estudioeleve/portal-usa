@@ -1,28 +1,29 @@
 [
-  {
-    "id": "2026-11-25-chegamos",
-    "titulo": "O Portal USA chegou",
-    "media_id": "18127183859087357",
-    "link": "https://www.instagram.com/p/DgJbeK7jEGl/",
-    "data": "2026-11-25T02:12:41Z"
-  },
-  {
-    "id": "2026-11-25-0230-localizador-ice",
-    "titulo": "Senadores pedem investigação sobre localizador do ICE",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "Senado dos EUA / Washington Post",
-    "link_fonte": "https://www.warren.senate.gov/newsroom/press-releases/warren-van-hollen-lujan-colleagues-seek-watchdog-investigation-into-ices-removal-of-thousands-of-detainees-from-public-locator-system/",
-    "media_id": "17961856389015529",
-    "link": "https://www.instagram.com/p/DgJcDYqD0nt/",
-    "data_utc": "2026-11-25T02:30:00Z"
-  },
-  {
-    "id": "2026-11-25-pressley-ice",
-    "titulo": "Deputada de Massachusetts quer o fim do ICE",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "gabinete da deputada Ayanna Pressley",
-    "media_id": "18094469057215124",
-    "link": "https://www.instagram.com/p/DgJcaNPjJn-/",
-    "data_utc": "2026-11-25T02:20:59Z"
-  }
+ {
+  "id": "2026-11-25-chegamos",
+  "titulo": "O Portal USA chegou",
+  "media_id": "18127183859087357",
+  "link": "https://www.instagram.com/p/DgJbeK7jEGl/",
+  "data": "2026-11-25T02:12:41Z"
+ },
+ {
+  "id": "2026-11-25-0230-localizador-ice",
+  "titulo": "Senadores pedem investigação sobre localizador do ICE",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "Senado dos EUA / Washington Post",
+  "link_fonte": "https://www.warren.senate.gov/newsroom/press-releases/warren-van-hollen-lujan-colleagues-seek-watchdog-investigation-into-ices-removal-of-thousands-of-detainees-from-public-locator-system/",
+  "media_id": "17961856389015529",
+  "link": "https://www.instagram.com/p/DgJcDYqD0nt/",
+  "data_utc": "2026-11-25T02:30:00Z"
+ },
+ {
+  "id": "2026-11-25-0300-localizador-ice",
+  "titulo": "Deputada de Massachusetts quer o fim do ICE",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "gabinete da deputada Ayanna Pressley",
+  "media_id": "18170478802486336",
+  "link": "https://www.instagram.com/p/DgJcc7qJdsQ/",
+  "data_utc": "2026-11-25T03:00:00Z",
+  "obs": "repostado no padrão; o post anterior (DgJcDYqD0nt) foi apagado pelo Israel"
+ }
 ]
