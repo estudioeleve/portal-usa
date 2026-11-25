@@ -1,0 +1,8 @@
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0B1E4A;--navy2:#132F6E;--red:#C8202F;--white:#fff;--soft:#C9D6F2}
+body{font-family:Poppins;background:transparent}
+.logo{display:inline-flex;flex-direction:column;line-height:.86;color:#fff}
+.logo .l1{font-weight:700;letter-spacing:-.045em}
+.logo .l2{display:flex;gap:.18em;align-items:baseline;letter-spacing:-.04em}
+.logo .b{font-weight:700}
+.logo .i{font-weight:300;font-style:italic}

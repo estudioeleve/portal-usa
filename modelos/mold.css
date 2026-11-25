@@ -1,0 +1,4 @@
+.lg2{display:inline-flex;flex-direction:column;align-items:center;color:#fff;line-height:.9}
+.lg2 .r1{display:flex;position:relative}.lg2 .p{font-weight:700;letter-spacing:-.045em}
+.lg2 .r2{letter-spacing:-.04em;white-space:nowrap}.lg2 .b{font-weight:700}.lg2 .i{font-weight:300;font-style:italic}
+.lg2 canvas{position:absolute}
