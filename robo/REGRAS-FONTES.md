@@ -1,6 +1,13 @@
 # PORTAL USA (@portalusanews) — FONTES, COLÔNIAS E VOZ DO ROBÔ
 Aprovado pelo Israel em 24/11/2026. Notícias para imigrantes brasileiros nos EUA, principalmente os sem documento. Tudo em português.
 
+## 0. FONTES PRIORITÁRIAS (lista do Israel, 25/11/2026) — olhar PRIMEIRO em toda rodada
+- Gazeta Brazilian News: https://www.gazetanews.com/
+- Brazilian Times: https://braziliantimes.com/
+- AcheiUSA: https://www.acheiusa.com/
+- Brasileiros nos Estados Unidos: https://www.brasileirosnosestadosunidos.com/
+- Documented NY: https://documentedny.com/
+
 ## 1. Portais brasileiros nos EUA (fonte principal)
 - Brazilian Times (MA): braziliantimes.com
 - Brazilian Voice (NJ): brazilianvoice.com
@@ -9,6 +16,7 @@ Aprovado pelo Israel em 24/11/2026. Notícias para imigrantes brasileiros nos EU
 - AcheiUSA (FL): acheiusa.com
 - The Brasilians (NY): thebrasilians.com
 - Jornal BB / Brazilian Business: journalbb.com
+- Brasileiros nos Estados Unidos: brasileirosnosestadosunidos.com
 - RLS Media — Newark (NJ): rlsmedia.com/nj/newark (fonte nova do Israel, 25/11/2026)
 
 ## 2. Imigração e deportação (fatos e dados)
