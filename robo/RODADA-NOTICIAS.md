@@ -20,9 +20,17 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
      e 1 ou 2 palavras embaixo. O script recusa título desequilibrado: aí reescreva o título e rode de novo.
    - A arte segue a MOLDURA OFICIAL do feed (molduras/portal-usa-moldura-feed.png): foto cheia, logo no canto superior
      esquerdo, degradê no rodapé, chip vermelho, título e @portalusanews. Nunca outro layout.
-   - Com foto (ex.: enviada pelo Israel): acrescente no fim do comando o arquivo da foto e "Foto: crédito".
-   - Sem foto (o ambiente não baixa imagens de outros sites): o script põe a bandeira dos EUA balançando no lugar da foto. Nunca escrever "imagem ilustrativa"/"imagem conceitual".
-   - Se o Pillow faltar: pip install pillow --break-system-packages
+   - FOTO É OBRIGATÓRIA (regra do Israel, 25/11/2026): SEMPRE usar a foto do fato, tirada da matéria da fonte
+     (a foto principal da notícia ou um print dela). Nunca postar só com a bandeira.
+     Como pegar: abrir a matéria com o Chromium/Playwright (modelos/shot.py) e salvar a foto principal ou um print
+     do recorte da foto (sem textos, logos ou anúncios do outro site) em dados/feed/fotos/.
+   - TAPAR O ROSTO: antes de usar, rode `python3 robo/tapar_rosto.py foto.jpg foto_tapada.jpg` e OLHE o resultado.
+     Todo rosto de imigrante (e de menor) tem que estar irreconhecível. Se sobrou rosto, tape com
+     `--caixa x,y,largura,altura` (pode repetir). Rosto de autoridade pública (agente identificado, político) pode ficar.
+   - Depois: acrescente no fim do comando da arte o arquivo da foto tapada e "Foto: NOME DO VEÍCULO".
+   - Se o ambiente não conseguir baixar a foto (site bloqueado na rede), NÃO publique: escreva em dados/erros.log
+     "sem foto: <site> bloqueado", faça commit e pare. Nunca escrever "imagem ilustrativa"/"imagem conceitual".
+   - Dependências: pip install pillow "opencv-python-headless<5" --break-system-packages
 6. Legenda (nesta ordem):
    - Título com 1 emoji no início (🚨 só para urgente; 🇺🇸 📍 ⚠️ 📄 💼 conforme o tema)
    - 2 a 4 linhas com os fatos e a atribuição ("segundo o ICE", "de acordo com o Brazilian Times")
