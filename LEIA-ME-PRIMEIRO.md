@@ -62,3 +62,7 @@ Opção 2: Windsor.ai (create_image_post / create_carousel_post / create_video_p
 - Vídeo VERTICAL: vai na moldura de Reels vertical INTEIRO, sem cortar nenhuma parte, aumentado o máximo possível dentro da moldura (sem esticar/deformar).
 - Vídeo HORIZONTAL: usa a moldura horizontal (portal-usa-moldura-reelsh).
 - Foto ou vídeo com pessoa: a pessoa principal fica CENTRALIZADA no quadro. Texto nunca em cima do rosto.
+- TUDO o que o Israel mandar (vídeo, foto, print, link) é para POSTAR (regra dele, 25/11/2026). Conferir os fatos e escrever com atribuição;
+  o que não tiver confirmação oficial sai como relato ("vídeo enviado ao Portal USA", "alerta nas redes"), nunca como fato confirmado.
+- Vídeo de outra emissora: usar só as imagens de apoio, sem repórter/apresentador e cortando a tarja/logo deles.
+- Áudio com palavrão ou de terceiro sem relação com a notícia: postar o vídeo mudo.
