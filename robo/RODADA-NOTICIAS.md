@@ -73,3 +73,9 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
 - Tela 1: capa com `robo/arte_card.py` (foto do fato + título padrão). Telas 2 a 5: `robo/arte_texto.py` (texto na identidade do Portal).
   A última tela é sempre "O QUE ISSO MUDA PRA VOCÊ". Salve em dados/carrossel/AAAA-MM-DD-slug/1.jpg..5.jpg.
 - Publicar: `python3 robo/publicar_meta.py carrossel "URL1,URL2,URL3,URL4,URL5" "<legenda>"`.
+
+## Post duplicado (Israel, 26/11/2026: o mesmo post saiu 3 vezes)
+- A Meta às vezes devolve ERRO (ex.: "Application request limit reached", código 4) mas o post SAI.
+- O publicar_meta.py agora confere a legenda nos posts das últimas 12 h antes de publicar e depois de qualquer erro; se já saiu, responde "ja_publicado" e para. Nunca repita a publicação na mão.
+- Antes de tentar de novo, confira o perfil: `GET /{ig}/media?fields=caption,timestamp,permalink`.
+- Várias rodadas publicando ao mesmo tempo disparam o bloqueio da Meta: confira `dados/postados.json` e o perfil logo antes de publicar.

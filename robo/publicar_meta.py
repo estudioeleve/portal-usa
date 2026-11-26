@@ -71,8 +71,43 @@ def _esperar(container, limite_s=900):
     raise SystemExit("Demorou demais para processar o vídeo.")
 
 
-def _publicar(container):
-    r = _req("POST", IG + "/media_publish", {"creation_id": container})
+def _ja_publicado(legenda, horas=12):
+    """Trava contra post duplicado: procura nos últimos posts um com a mesma legenda."""
+    chave = " ".join((legenda or "").split())[:120]
+    if not chave:
+        return None
+    try:
+        d = _req("GET", IG + "/media", {"fields": "id,timestamp,caption,permalink", "limit": "30"})
+    except SystemExit:
+        return None
+    agora = time.time()
+    for m in d.get("data", []):
+        try:
+            t = time.mktime(time.strptime(m["timestamp"][:19], "%Y-%m-%dT%H:%M:%S")) - time.timezone
+        except Exception:
+            t = agora
+        if agora - t > horas * 3600:
+            continue
+        if " ".join((m.get("caption") or "").split())[:120] == chave:
+            return m
+    return None
+
+
+def _parar_se_duplicado(legenda):
+    m = _ja_publicado(legenda)
+    if m:
+        print(json.dumps({"ok": True, "ja_publicado": True, "media_id": m["id"], "link": m.get("permalink", "")}, ensure_ascii=False))
+        raise SystemExit(0)
+
+
+def _publicar(container, legenda=""):
+    try:
+        r = _req("POST", IG + "/media_publish", {"creation_id": container})
+    except SystemExit as e:
+        # A Meta às vezes devolve erro mas o post SAI. Confere antes de qualquer nova tentativa.
+        time.sleep(20)
+        _parar_se_duplicado(legenda)
+        raise e
     mid = r["id"]
     link = _req("GET", mid, {"fields": "permalink"}).get("permalink", "")
     print(json.dumps({"ok": True, "media_id": mid, "link": link}, ensure_ascii=False))
@@ -80,14 +115,16 @@ def _publicar(container):
 
 
 def foto(url, legenda, collab=""):
+    _parar_se_duplicado(legenda)
     d = {"image_url": url, "caption": legenda}
     d.update(_collab(collab))
     c = _req("POST", IG + "/media", d)["id"]
     _esperar(c, 120)
-    return _publicar(c)
+    return _publicar(c, legenda)
 
 
 def carrossel(urls, legenda, collab=""):
+    _parar_se_duplicado(legenda)
     filhos = []
     for u in urls.split(",")[:10]:
         u = u.strip()
@@ -101,17 +138,18 @@ def carrossel(urls, legenda, collab=""):
     d.update(_collab(collab))
     c = _req("POST", IG + "/media", d)["id"]
     _esperar(c, 300)
-    return _publicar(c)
+    return _publicar(c, legenda)
 
 
 def reels(url, legenda, capa="", collab=""):
+    _parar_se_duplicado(legenda)
     d = {"media_type": "REELS", "video_url": url, "caption": legenda, "share_to_feed": "true"}
     if capa:
         d["cover_url"] = capa
     d.update(_collab(collab))
     c = _req("POST", IG + "/media", d)["id"]
     _esperar(c)
-    return _publicar(c)
+    return _publicar(c, legenda)
 
 
 def limite():
