@@ -4,3 +4,5 @@
 2026-11-25T18:17Z ERRO DE REDE (coletar.py): documentedny.com 403 na pauta 'roubo de salarios em NY' (sem 2a fonte nem foto); rodada sem publicacao
 2026-11-25T19:16Z ERRO DE REDE (coletar.py): qz.com 403; foto obtida em riotimesonline.com
 2026-11-26T14:22Z ERRO DA META (3 tentativas): code 4 / subcode 2207051 'Application request limit reached' (ação bloqueada) ao publicar 'Tempestade adia desfile da Macy's e Nova York entra em emergência' (arte dados/feed/2026-11-26-1420-tempestade-ny-macys.jpg, commit b74246c); nada publicado
+2026-11-26T14:21Z ERRO META ao publicar 2026-11-26-1430-advogada-ice-estrategia: ERRO DA META: {"error":{"message":"Fatal","code":-1,"type":"OAuthException","error_subcode":2207032,"is_transient":false,"error_user_msg":"Falha ao criar imagem. Tente recriar a mídia","error_user_tit
+2026-11-26T14:22Z ERRO META ao publicar 2026-11-26-1440-revere-golpe-idoso: ","code":4,"type":"OAuthException","error_subcode":2207051,"is_transient":false,"error_user_msg":"Restringimos determinadas atividades para proteger nossa comunidade. Diga-nos se você acha que cometem
