@@ -1,311 +1,341 @@
 [
-  {
-    "id": "2026-11-25-chegamos",
-    "titulo": "O Portal USA chegou",
-    "media_id": "18127183859087357",
-    "link": "https://www.instagram.com/p/DgJbeK7jEGl/",
-    "data": "2026-11-25T02:12:41Z"
-  },
-  {
-    "id": "2026-11-25-0230-localizador-ice",
-    "titulo": "Senadores pedem investigação sobre localizador do ICE",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "Senado dos EUA / Washington Post",
-    "link_fonte": "https://www.warren.senate.gov/newsroom/press-releases/warren-van-hollen-lujan-colleagues-seek-watchdog-investigation-into-ices-removal-of-thousands-of-detainees-from-public-locator-system/",
-    "media_id": "17961856389015529",
-    "link": "https://www.instagram.com/p/DgJcDYqD0nt/",
-    "data_utc": "2026-11-25T02:30:00Z"
-  },
-  {
-    "id": "2026-11-25-0300-localizador-ice",
-    "titulo": "Deputada de Massachusetts quer o fim do ICE",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "gabinete da deputada Ayanna Pressley",
-    "media_id": "18170478802486336",
-    "link": "https://www.instagram.com/p/DgJcc7qJdsQ/",
-    "data_utc": "2026-11-25T03:00:00Z",
-    "obs": "repostado no padrão; o post anterior (DgJcDYqD0nt) foi apagado pelo Israel"
-  },
-  {
-    "id": "2026-11-25-1020-ice-aeroporto-seattle",
-    "titulo": "ICE prende pai e filha na porta do avião em aeroporto de Seattle",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "CBS News / ABC News",
-    "link_fonte": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/",
-    "media_id": "18126380698950368",
-    "link": "https://www.instagram.com/p/DgKS2LmJX9N/",
-    "data_utc": "2026-11-25T10:25:00Z"
-  },
-  {
-    "id": "2026-11-25-1215-ice-tribunais-ma",
-    "titulo": "Mesmo com lei nova, ICE segue prendendo imigrantes nos tribunais de Massachusetts",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "Gazeta News / Boston Globe",
-    "link_fonte": "https://www.gazetanews.com/imigracao/2026/11/525581-ice-continua-prendendo-imigrantes-em-tribunais-de-massachusetts-apesar-de-nova-lei-estadual.html",
-    "media_id": "18419604826087485",
-    "link": "https://www.instagram.com/p/DgKgIYBFSjB/",
-    "data_utc": "2026-11-25T12:30:00Z"
-  },
-  {
-    "id": "2026-11-25-1230-pressley-ice-foto",
-    "titulo": "Deputada de Massachusetts defende acabar com o ICE no novo Congresso",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "gabinete da deputada Ayanna Pressley",
-    "link_fonte": "https://www.foxnews.com/media/squad-member-brands-ice-racist-rogue-call-abolish-agency",
-    "media_id": "18117671564019626",
-    "link": "https://www.instagram.com/p/DgKgJcICc0A/",
-    "data_utc": "2026-11-25T12:30:00Z",
-    "obs": "refeito com foto a pedido do Israel; o post antigo só com bandeira (DgJcc7qJdsQ) continua no ar até ele apagar"
-  },
-  {
-    "id": "2026-11-25-1220-ice-aeroporto-logan",
-    "titulo": "Protesto em Boston cobra limite à ação do ICE no aeroporto Logan",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "NBC Boston",
-    "link_fonte": "https://www.nbcboston.com/immigration/protesters-call-on-massport-to-limit-ice-airport-operations-in-line-with-state-law/4054696/",
-    "media_id": "18089712368687275",
-    "link": "https://www.instagram.com/p/DgKgjP-jVTd/",
-    "data_utc": "2026-11-25T12:25:00Z"
-  },
-  {
-    "id": "2026-11-25-1320-hud-familias-mistas",
-    "titulo": "Famílias com imigrante sem documento podem perder ajuda de moradia",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "WBUR / Newsweek / AcheiUSA",
-    "link_fonte": "https://www.wbur.org/news/2026/11/16/hud-immigration-policy-rule-public-housing",
-    "media_id": "18079938311768734",
-    "link": "https://www.instagram.com/p/DgKnjolAIe2/",
-    "data_utc": "2026-11-25T13:25:00Z"
-  },
-  {
-    "id": "2026-11-25-1420-mares-san-francisco",
-    "titulo": "Marés recordes e chuva forte ameaçam inundar San Francisco no feriado",
-    "editoria": "CLIMA",
-    "fonte": "NWS / NBC News / ABC7",
-    "link_fonte": "https://www.nbcnews.com/weather/floods/pacific-coast-king-tides-break-records-flood-communities-rcna611051",
-    "media_id": "18101304950116720",
-    "link": "https://www.instagram.com/p/DgKubCfD4mY/",
-    "data_utc": "2026-11-25T14:25:00Z",
-    "obs": "Via @voupraamerica (pauta)"
-  },
-  {
-    "id": "18649804075020372",
-    "titulo": "Governo admite na Justiça que deportou cidadão americano",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "Austin American-Statesman / KVUE / The Hill",
-    "link_fonte": "https://www.statesman.com/news/article/austin-man-deported-mexico-us-citizen-lawsuit-22543114.php",
-    "media_id": "18649804075020372",
-    "link": "https://www.instagram.com/p/DgK-BzODxE0/",
-    "data_utc": "2026-11-25T16:50:00Z"
-  },
-  {
-    "id": "18102283463428458",
-    "titulo": "Checagem extra do USCIS pode atrasar green card e cidadania",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "USCIS / Fragomen / NAFSA (vídeo CNews enviado pelo Israel)",
-    "link_fonte": "https://www.fragomen.com/insights/united-states-uscis-delays-adjudications-for-re-submission-of-fingerprint-based-background-checks.html",
-    "media_id": "18102283463428458",
-    "link": "https://www.instagram.com/reel/DgK-_qPhT17/",
-    "data_utc": "2026-11-25T17:35:00Z"
-  },
-  {
-    "id": "18399995479160550",
-    "titulo": "Agentes federais armados são vistos em Washington Heights",
-    "editoria": "SEGURANÇA",
-    "fonte": "vídeo enviado pelo Israel / alerta nas redes",
-    "link_fonte": null,
-    "media_id": "18399995479160550",
-    "link": "https://www.instagram.com/reel/DgK_alDuuCZ/",
-    "data_utc": "2026-11-25T18:00:00Z"
-  },
-  {
-    "id": "18111856921942127",
-    "titulo": "Deportado por engano, Kilmar Ábrego deixa os EUA e vai para a Espanha",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "AP / Al Jazeera / g1",
-    "link_fonte": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
-    "media_id": "18111856921942127",
-    "link": "https://www.instagram.com/p/DgK_oFxoLdj/",
-    "data_utc": "2026-11-25T18:15:00Z"
-  },
-  {
-    "id": "2026-11-25-1920-tarifa-avioes",
-    "titulo": "EUA querem taxar aviões e açúcar do Brasil em nova rodada do tarifaço",
-    "editoria": "ECONOMIA",
-    "fonte": "USTR / AcheiUSA / Quartz",
-    "link_fonte": "https://www.acheiusa.com/Noticia/acucar-e-avioes-brasileiros-sao-os-novos-alvos-do-tarifaco-de-trump-178207/",
-    "media_id": "18134381830748261",
-    "link": "https://www.instagram.com/p/DgLQveHDFom/",
-    "data_utc": "2026-11-25T19:20:00Z"
-  },
-  {
-    "id": "2026-11-25-2000-nj-emergencia",
-    "titulo": "Nova Jersey decreta emergência por tempestade no feriado",
-    "editoria": "CLIMA",
-    "fonte": "Governo de NJ / Fox 5 NY / PIX11 (vídeo enviado pelo Israel, Telemundo 62)",
-    "link_fonte": "https://www.fox5ny.com/news/nj-gov-mikie-sherrill-declares-state-emergency-ahead-thanksgiving-storm",
-    "media_id": "17998458567101732",
-    "link": "https://www.instagram.com/reel/DgLVMFgJTVy/",
-    "data_utc": "2026-11-25T20:00:00Z"
-  },
-  {
-    "id": "2026-11-25-2010-corzo-ice",
-    "titulo": "Presidente de condado na Califórnia acusa agente do ICE de agressão",
-    "editoria": "DIREITOS",
-    "fonte": "Redwood City Pulse / KTVU / NBC Bay Area (print enviado pelo Israel)",
-    "link_fonte": "https://www.rwcpulse.com/san-mateo-county/2026/11/23/supervisor-corzo-alleges-ice-agent-assaulted-her-outside-redwood-city-jail/",
-    "media_id": "17948538564368793",
-    "link": "https://www.instagram.com/p/DgLVZX4nJdv/",
-    "data_utc": "2026-11-25T20:10:00Z"
-  },
-  {
-    "id": "2026-11-25-2020-falsa-advogada-doral",
-    "titulo": "Falsa advogada de imigração é presa na Flórida após golpe pelo Facebook",
-    "editoria": "SEGURANÇA",
-    "fonte": "NBC 6 South Florida / Polícia de Doral / Infobae",
-    "link_fonte": "https://www.nbcmiami.com/news/local/doral-woman-accused-of-impersonating-as-a-lawyer-scamming-victim-in-new-york-arrested/3892589/",
-    "media_id": "18133912870692617",
-    "link": "https://www.instagram.com/p/DgLXfLKnCM_/",
-    "data_utc": "2026-11-25T20:25:00Z"
-  },
-  {
-    "id": "2026-11-25-2120-loteria-ice-east-boston",
-    "titulo": "Ganha US$ 1 milhão na loteria e é preso pelo ICE seis dias depois em East Boston",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "ICE / NBC Boston / Boston Globe",
-    "link_fonte": "https://www.nbcboston.com/news/local/east-boston-man-who-won-1m-on-scratch-ticket-arrested-by-ice/4054852/",
-    "media_id": "18144505159619380",
-    "link": "https://www.instagram.com/p/DgLeaMtmBPR/",
-    "data_utc": "2026-11-25T21:20:00Z"
-  },
-  {
-    "id": "2026-11-25-2320-doj-habeas",
-    "titulo": "Governo põe mais advogados contra ações de imigrantes presos pelo ICE",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "CBS News / Fox News / Washington Times",
-    "link_fonte": "https://www.washingtontimes.com/news/2026/nov/25/doj-ramps-lawyers-combat-tsunami-migrant-cases/",
-    "media_id": "18116379677142244",
-    "link": "https://www.instagram.com/p/DgLsKGTAHVh/",
-    "data_utc": "2026-11-25T23:25:00Z"
-  },
-  {
-    "id": "2026-11-26-0135-xerife-frederick",
-    "titulo": "Xerife aliado do ICE há 18 anos em Maryland perde a eleição para democrata",
-    "editoria": "IMIGRAÇÃO",
-    "fonte": "Governo de Maryland / The Baltimore Banner / Maryland Matters (print enviado pelo Israel, @nossaradiousa)",
-    "link_fonte": "https://www.thebanner.com/politics-power/frederick-county-chuck-jenkins-karl-bickel-P6H22KC4SZBGRE3JZLREPMCAWM/",
-    "media_id": "18101788424553674",
-    "link": "https://www.instagram.com/p/DgL75n_m3qa/",
-    "data_utc": "2026-11-26T01:45:00Z"
-  },
-  {
-    "id": "2026-11-26-0150-carteira-nc",
-    "titulo": "Carolina do Norte pode dar carteira de motorista a imigrante sem papel",
-    "editoria": "DIREITOS",
-    "fonte": "WUNC / WFAE (print enviado pelo Israel, @negocio_fechado_news)",
-    "link_fonte": "https://www.wunc.org/2026-11-13/nc-house-democrats-could-revisit-laws-that-require-cooperation-with-ice",
-    "media_id": "18122815757074700",
-    "link": "https://www.instagram.com/p/DgL8_kwmpi9/",
-    "data_utc": "2026-11-26T01:55:00Z"
-  },
-  {
-    "id": "2026-11-26-perm",
-    "titulo": "Trump quer endurecer as regras para o green card patrocinado por empresa",
-    "editoria": "TRABALHO",
-    "fonte": "DOL / Jackson Lewis / Newsweek (carrossel do @metropoles enviado pelo Israel)",
-    "link_fonte": "https://www.dol.gov/index.php/newsroom/releases/eta/eta20261116",
-    "media_id": "18647022652022822",
-    "link": "https://www.instagram.com/p/DgL9xeUn-zR/",
-    "data_utc": "2026-11-26T02:05:00Z"
-  },
-  {
-    "id": "2026-11-26-0215-ice-perfil",
-    "titulo": "Motorista grava o ICE e acusa agentes de parar latinos pela aparência",
-    "editoria": "DIREITOS",
-    "fonte": "vídeo enviado pelo Israel / alerta nas redes (local e data não confirmados)",
-    "link_fonte": "",
-    "media_id": "18150401404597368",
-    "link": "https://www.instagram.com/reel/DgL-7E9pgfV/",
-    "data_utc": "2026-11-26T02:20:00Z"
-  },
-  {
-    "id": "2026-11-26-0210-giuliani",
-    "titulo": "Rudy Giuliani recebe de Trump a maior honraria civil dos Estados Unidos",
-    "editoria": "POLÍTICA",
-    "fonte": "Casa Branca / ABC News / Denver Gazette (print @voupraamerica enviado pelo Israel)",
-    "link_fonte": "https://abcnews.com/Politics/trump-award-medal-freedom-former-nyc-mayor-rudy/story?id=138411544",
-    "media_id": "18041796302849456",
-    "link": "https://www.instagram.com/p/DgL_VgCILW3/",
-    "data_utc": "2026-11-26T02:25:00Z"
-  },
-  {
-    "id": "2026-11-26-0215-salazar",
-    "titulo": "Deputada que defende imigrantes é reeleita por pouco no sul da Flórida",
-    "editoria": "POLÍTICA",
-    "fonte": "AP / WLRN (print @nossaradiousa enviado pelo Israel)",
-    "link_fonte": "https://www.wlrn.org/government-politics/2026-11-03/salazar-rodriguez-27th-recount",
-    "media_id": "18647043937026370",
-    "link": "https://www.instagram.com/p/DgL_WiKIWSE/",
-    "data_utc": "2026-11-26T02:25:00Z"
-  },
-  {
-    "id": "2026-11-26-1500-acao-de-gracas",
-    "titulo": "Dia de Ação de Graças: o que abre, o que fecha e o que muda pra você hoje",
-    "editoria": "ESPECIAL",
-    "fonte": "AAA / American Farm Bureau / USPS / Walmart / Target",
-    "link_fonte": "https://www.fb.org/intel/markets/thanksgiving-dinner-cost-ticks-upward-in-2026",
-    "media_id": "17994229845075464",
-    "link": "https://www.instagram.com/p/DgNS3AdjHRZ/",
-    "data_utc": "2026-11-26T14:14:21Z"
-  },
-  {
-    "id": "2026-11-26-1400-newark-tinta",
-    "titulo": "Faixa pintada em plena hora do rush suja pneus de motoristas em Newark",
-    "editoria": "COMUNIDADE",
-    "fonte": "vídeo enviado pelo Israel / redes sociais (Newark, NJ)",
-    "link_fonte": "",
-    "media_id": "17886775092527253",
-    "link": "https://www.instagram.com/reel/DgNS4msttLR/",
-    "data_utc": "2026-11-26T14:15:53Z"
-  },
-  {
-    "id": "2026-11-26-1410-walmart-carrinho",
-    "titulo": "Equipe do Walmart cerca homem que tentou levar um carrinho sem pagar",
-    "editoria": "SEGURANÇA",
-    "fonte": "vídeo enviado pelo Israel / redes sociais (local não confirmado)",
-    "link_fonte": "",
-    "media_id": "18110975747219301",
-    "link": "https://www.instagram.com/reel/DgNTEaUAQdN/",
-    "data_utc": "2026-11-26T14:16:55Z"
-  },
-  {
-    "id": "2026-11-26-1420-amazon-carro-ligado",
-    "titulo": "Entregador da Amazon deixa carro ligado na rua e leva bronca em Newark",
-    "editoria": "TRABALHO",
-    "fonte": "vídeo enviado pelo Israel / redes sociais (Newark, NJ)",
-    "link_fonte": "",
-    "media_id": "18033158690865613",
-    "link": "https://www.instagram.com/reel/DgNTLUThlQX/",
-    "data_utc": "2026-11-26T14:17:38Z"
-  },
-  {
-    "id": "2026-11-26-tempestade-ny-macys",
-    "titulo": "Tempestade adia desfile da Macy's e Nova York entra em emergência",
-    "editoria": "CLIMA",
-    "fonte": "Governo de Nova York / CBS News / ABC News",
-    "link_fonte": "https://www.cbsnews.com/newyork/news/macys-thanksgiving-day-parade-postponed/",
-    "media_id": "18119796230124003",
-    "link": "https://www.instagram.com/p/DgNTyNKmHUc/",
-    "data_utc": "2026-11-26T14:22:24Z"
-  },
-  {
-    "id": "2026-11-26-brasileiros-estados",
-    "titulo": "Flórida, Massachusetts e Califórnia têm metade dos brasileiros dos EUA",
-    "editoria": "COMUNIDADE",
-    "fonte": "Migration Policy Institute / Itamaraty",
-    "link_fonte": "https://www.migrationpolicy.org/article/brazilian-immigrants-united-states-2026",
-    "media_id": "18138710920681057",
-    "link": "https://www.instagram.com/p/DgNVD6JHFOl/",
-    "data_utc": "2026-11-26T14:33:33Z"
-  }
+ {
+  "id": "2026-11-25-chegamos",
+  "titulo": "O Portal USA chegou",
+  "media_id": "18127183859087357",
+  "link": "https://www.instagram.com/p/DgJbeK7jEGl/",
+  "data": "2026-11-25T02:12:41Z"
+ },
+ {
+  "id": "2026-11-25-0230-localizador-ice",
+  "titulo": "Senadores pedem investigação sobre localizador do ICE",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "Senado dos EUA / Washington Post",
+  "link_fonte": "https://www.warren.senate.gov/newsroom/press-releases/warren-van-hollen-lujan-colleagues-seek-watchdog-investigation-into-ices-removal-of-thousands-of-detainees-from-public-locator-system/",
+  "media_id": "17961856389015529",
+  "link": "https://www.instagram.com/p/DgJcDYqD0nt/",
+  "data_utc": "2026-11-25T02:30:00Z"
+ },
+ {
+  "id": "2026-11-25-0300-localizador-ice",
+  "titulo": "Deputada de Massachusetts quer o fim do ICE",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "gabinete da deputada Ayanna Pressley",
+  "media_id": "18170478802486336",
+  "link": "https://www.instagram.com/p/DgJcc7qJdsQ/",
+  "data_utc": "2026-11-25T03:00:00Z",
+  "obs": "repostado no padrão; o post anterior (DgJcDYqD0nt) foi apagado pelo Israel"
+ },
+ {
+  "id": "2026-11-25-1020-ice-aeroporto-seattle",
+  "titulo": "ICE prende pai e filha na porta do avião em aeroporto de Seattle",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "CBS News / ABC News",
+  "link_fonte": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/",
+  "media_id": "18126380698950368",
+  "link": "https://www.instagram.com/p/DgKS2LmJX9N/",
+  "data_utc": "2026-11-25T10:25:00Z"
+ },
+ {
+  "id": "2026-11-25-1215-ice-tribunais-ma",
+  "titulo": "Mesmo com lei nova, ICE segue prendendo imigrantes nos tribunais de Massachusetts",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "Gazeta News / Boston Globe",
+  "link_fonte": "https://www.gazetanews.com/imigracao/2026/11/525581-ice-continua-prendendo-imigrantes-em-tribunais-de-massachusetts-apesar-de-nova-lei-estadual.html",
+  "media_id": "18419604826087485",
+  "link": "https://www.instagram.com/p/DgKgIYBFSjB/",
+  "data_utc": "2026-11-25T12:30:00Z"
+ },
+ {
+  "id": "2026-11-25-1230-pressley-ice-foto",
+  "titulo": "Deputada de Massachusetts defende acabar com o ICE no novo Congresso",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "gabinete da deputada Ayanna Pressley",
+  "link_fonte": "https://www.foxnews.com/media/squad-member-brands-ice-racist-rogue-call-abolish-agency",
+  "media_id": "18117671564019626",
+  "link": "https://www.instagram.com/p/DgKgJcICc0A/",
+  "data_utc": "2026-11-25T12:30:00Z",
+  "obs": "refeito com foto a pedido do Israel; o post antigo só com bandeira (DgJcc7qJdsQ) continua no ar até ele apagar"
+ },
+ {
+  "id": "2026-11-25-1220-ice-aeroporto-logan",
+  "titulo": "Protesto em Boston cobra limite à ação do ICE no aeroporto Logan",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "NBC Boston",
+  "link_fonte": "https://www.nbcboston.com/immigration/protesters-call-on-massport-to-limit-ice-airport-operations-in-line-with-state-law/4054696/",
+  "media_id": "18089712368687275",
+  "link": "https://www.instagram.com/p/DgKgjP-jVTd/",
+  "data_utc": "2026-11-25T12:25:00Z"
+ },
+ {
+  "id": "2026-11-25-1320-hud-familias-mistas",
+  "titulo": "Famílias com imigrante sem documento podem perder ajuda de moradia",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "WBUR / Newsweek / AcheiUSA",
+  "link_fonte": "https://www.wbur.org/news/2026/11/16/hud-immigration-policy-rule-public-housing",
+  "media_id": "18079938311768734",
+  "link": "https://www.instagram.com/p/DgKnjolAIe2/",
+  "data_utc": "2026-11-25T13:25:00Z"
+ },
+ {
+  "id": "2026-11-25-1420-mares-san-francisco",
+  "titulo": "Marés recordes e chuva forte ameaçam inundar San Francisco no feriado",
+  "editoria": "CLIMA",
+  "fonte": "NWS / NBC News / ABC7",
+  "link_fonte": "https://www.nbcnews.com/weather/floods/pacific-coast-king-tides-break-records-flood-communities-rcna611051",
+  "media_id": "18101304950116720",
+  "link": "https://www.instagram.com/p/DgKubCfD4mY/",
+  "data_utc": "2026-11-25T14:25:00Z",
+  "obs": "Via @voupraamerica (pauta)"
+ },
+ {
+  "id": "18649804075020372",
+  "titulo": "Governo admite na Justiça que deportou cidadão americano",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "Austin American-Statesman / KVUE / The Hill",
+  "link_fonte": "https://www.statesman.com/news/article/austin-man-deported-mexico-us-citizen-lawsuit-22543114.php",
+  "media_id": "18649804075020372",
+  "link": "https://www.instagram.com/p/DgK-BzODxE0/",
+  "data_utc": "2026-11-25T16:50:00Z"
+ },
+ {
+  "id": "18102283463428458",
+  "titulo": "Checagem extra do USCIS pode atrasar green card e cidadania",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "USCIS / Fragomen / NAFSA (vídeo CNews enviado pelo Israel)",
+  "link_fonte": "https://www.fragomen.com/insights/united-states-uscis-delays-adjudications-for-re-submission-of-fingerprint-based-background-checks.html",
+  "media_id": "18102283463428458",
+  "link": "https://www.instagram.com/reel/DgK-_qPhT17/",
+  "data_utc": "2026-11-25T17:35:00Z"
+ },
+ {
+  "id": "18399995479160550",
+  "titulo": "Agentes federais armados são vistos em Washington Heights",
+  "editoria": "SEGURANÇA",
+  "fonte": "vídeo enviado pelo Israel / alerta nas redes",
+  "link_fonte": null,
+  "media_id": "18399995479160550",
+  "link": "https://www.instagram.com/reel/DgK_alDuuCZ/",
+  "data_utc": "2026-11-25T18:00:00Z"
+ },
+ {
+  "id": "18111856921942127",
+  "titulo": "Deportado por engano, Kilmar Ábrego deixa os EUA e vai para a Espanha",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "AP / Al Jazeera / g1",
+  "link_fonte": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
+  "media_id": "18111856921942127",
+  "link": "https://www.instagram.com/p/DgK_oFxoLdj/",
+  "data_utc": "2026-11-25T18:15:00Z"
+ },
+ {
+  "id": "2026-11-25-1920-tarifa-avioes",
+  "titulo": "EUA querem taxar aviões e açúcar do Brasil em nova rodada do tarifaço",
+  "editoria": "ECONOMIA",
+  "fonte": "USTR / AcheiUSA / Quartz",
+  "link_fonte": "https://www.acheiusa.com/Noticia/acucar-e-avioes-brasileiros-sao-os-novos-alvos-do-tarifaco-de-trump-178207/",
+  "media_id": "18134381830748261",
+  "link": "https://www.instagram.com/p/DgLQveHDFom/",
+  "data_utc": "2026-11-25T19:20:00Z"
+ },
+ {
+  "id": "2026-11-25-2000-nj-emergencia",
+  "titulo": "Nova Jersey decreta emergência por tempestade no feriado",
+  "editoria": "CLIMA",
+  "fonte": "Governo de NJ / Fox 5 NY / PIX11 (vídeo enviado pelo Israel, Telemundo 62)",
+  "link_fonte": "https://www.fox5ny.com/news/nj-gov-mikie-sherrill-declares-state-emergency-ahead-thanksgiving-storm",
+  "media_id": "17998458567101732",
+  "link": "https://www.instagram.com/reel/DgLVMFgJTVy/",
+  "data_utc": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "2026-11-25-2010-corzo-ice",
+  "titulo": "Presidente de condado na Califórnia acusa agente do ICE de agressão",
+  "editoria": "DIREITOS",
+  "fonte": "Redwood City Pulse / KTVU / NBC Bay Area (print enviado pelo Israel)",
+  "link_fonte": "https://www.rwcpulse.com/san-mateo-county/2026/11/23/supervisor-corzo-alleges-ice-agent-assaulted-her-outside-redwood-city-jail/",
+  "media_id": "17948538564368793",
+  "link": "https://www.instagram.com/p/DgLVZX4nJdv/",
+  "data_utc": "2026-11-25T20:10:00Z"
+ },
+ {
+  "id": "2026-11-25-2020-falsa-advogada-doral",
+  "titulo": "Falsa advogada de imigração é presa na Flórida após golpe pelo Facebook",
+  "editoria": "SEGURANÇA",
+  "fonte": "NBC 6 South Florida / Polícia de Doral / Infobae",
+  "link_fonte": "https://www.nbcmiami.com/news/local/doral-woman-accused-of-impersonating-as-a-lawyer-scamming-victim-in-new-york-arrested/3892589/",
+  "media_id": "18133912870692617",
+  "link": "https://www.instagram.com/p/DgLXfLKnCM_/",
+  "data_utc": "2026-11-25T20:25:00Z"
+ },
+ {
+  "id": "2026-11-25-2120-loteria-ice-east-boston",
+  "titulo": "Ganha US$ 1 milhão na loteria e é preso pelo ICE seis dias depois em East Boston",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "ICE / NBC Boston / Boston Globe",
+  "link_fonte": "https://www.nbcboston.com/news/local/east-boston-man-who-won-1m-on-scratch-ticket-arrested-by-ice/4054852/",
+  "media_id": "18144505159619380",
+  "link": "https://www.instagram.com/p/DgLeaMtmBPR/",
+  "data_utc": "2026-11-25T21:20:00Z"
+ },
+ {
+  "id": "2026-11-25-2320-doj-habeas",
+  "titulo": "Governo põe mais advogados contra ações de imigrantes presos pelo ICE",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "CBS News / Fox News / Washington Times",
+  "link_fonte": "https://www.washingtontimes.com/news/2026/nov/25/doj-ramps-lawyers-combat-tsunami-migrant-cases/",
+  "media_id": "18116379677142244",
+  "link": "https://www.instagram.com/p/DgLsKGTAHVh/",
+  "data_utc": "2026-11-25T23:25:00Z"
+ },
+ {
+  "id": "2026-11-26-0135-xerife-frederick",
+  "titulo": "Xerife aliado do ICE há 18 anos em Maryland perde a eleição para democrata",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "Governo de Maryland / The Baltimore Banner / Maryland Matters (print enviado pelo Israel, @nossaradiousa)",
+  "link_fonte": "https://www.thebanner.com/politics-power/frederick-county-chuck-jenkins-karl-bickel-P6H22KC4SZBGRE3JZLREPMCAWM/",
+  "media_id": "18101788424553674",
+  "link": "https://www.instagram.com/p/DgL75n_m3qa/",
+  "data_utc": "2026-11-26T01:45:00Z"
+ },
+ {
+  "id": "2026-11-26-0150-carteira-nc",
+  "titulo": "Carolina do Norte pode dar carteira de motorista a imigrante sem papel",
+  "editoria": "DIREITOS",
+  "fonte": "WUNC / WFAE (print enviado pelo Israel, @negocio_fechado_news)",
+  "link_fonte": "https://www.wunc.org/2026-11-13/nc-house-democrats-could-revisit-laws-that-require-cooperation-with-ice",
+  "media_id": "18122815757074700",
+  "link": "https://www.instagram.com/p/DgL8_kwmpi9/",
+  "data_utc": "2026-11-26T01:55:00Z"
+ },
+ {
+  "id": "2026-11-26-perm",
+  "titulo": "Trump quer endurecer as regras para o green card patrocinado por empresa",
+  "editoria": "TRABALHO",
+  "fonte": "DOL / Jackson Lewis / Newsweek (carrossel do @metropoles enviado pelo Israel)",
+  "link_fonte": "https://www.dol.gov/index.php/newsroom/releases/eta/eta20261116",
+  "media_id": "18647022652022822",
+  "link": "https://www.instagram.com/p/DgL9xeUn-zR/",
+  "data_utc": "2026-11-26T02:05:00Z"
+ },
+ {
+  "id": "2026-11-26-0215-ice-perfil",
+  "titulo": "Motorista grava o ICE e acusa agentes de parar latinos pela aparência",
+  "editoria": "DIREITOS",
+  "fonte": "vídeo enviado pelo Israel / alerta nas redes (local e data não confirmados)",
+  "link_fonte": "",
+  "media_id": "18150401404597368",
+  "link": "https://www.instagram.com/reel/DgL-7E9pgfV/",
+  "data_utc": "2026-11-26T02:20:00Z"
+ },
+ {
+  "id": "2026-11-26-0210-giuliani",
+  "titulo": "Rudy Giuliani recebe de Trump a maior honraria civil dos Estados Unidos",
+  "editoria": "POLÍTICA",
+  "fonte": "Casa Branca / ABC News / Denver Gazette (print @voupraamerica enviado pelo Israel)",
+  "link_fonte": "https://abcnews.com/Politics/trump-award-medal-freedom-former-nyc-mayor-rudy/story?id=138411544",
+  "media_id": "18041796302849456",
+  "link": "https://www.instagram.com/p/DgL_VgCILW3/",
+  "data_utc": "2026-11-26T02:25:00Z"
+ },
+ {
+  "id": "2026-11-26-0215-salazar",
+  "titulo": "Deputada que defende imigrantes é reeleita por pouco no sul da Flórida",
+  "editoria": "POLÍTICA",
+  "fonte": "AP / WLRN (print @nossaradiousa enviado pelo Israel)",
+  "link_fonte": "https://www.wlrn.org/government-politics/2026-11-03/salazar-rodriguez-27th-recount",
+  "media_id": "18647043937026370",
+  "link": "https://www.instagram.com/p/DgL_WiKIWSE/",
+  "data_utc": "2026-11-26T02:25:00Z"
+ },
+ {
+  "id": "2026-11-26-1500-acao-de-gracas",
+  "titulo": "Dia de Ação de Graças: o que abre, o que fecha e o que muda pra você hoje",
+  "editoria": "ESPECIAL",
+  "fonte": "AAA / American Farm Bureau / USPS / Walmart / Target",
+  "link_fonte": "https://www.fb.org/intel/markets/thanksgiving-dinner-cost-ticks-upward-in-2026",
+  "media_id": "17994229845075464",
+  "link": "https://www.instagram.com/p/DgNS3AdjHRZ/",
+  "data_utc": "2026-11-26T14:14:21Z"
+ },
+ {
+  "id": "2026-11-26-1400-newark-tinta",
+  "titulo": "Faixa pintada em plena hora do rush suja pneus de motoristas em Newark",
+  "editoria": "COMUNIDADE",
+  "fonte": "vídeo enviado pelo Israel / redes sociais (Newark, NJ)",
+  "link_fonte": "",
+  "media_id": "17886775092527253",
+  "link": "https://www.instagram.com/reel/DgNS4msttLR/",
+  "data_utc": "2026-11-26T14:15:53Z"
+ },
+ {
+  "id": "2026-11-26-1410-walmart-carrinho",
+  "titulo": "Equipe do Walmart cerca homem que tentou levar um carrinho sem pagar",
+  "editoria": "SEGURANÇA",
+  "fonte": "vídeo enviado pelo Israel / redes sociais (local não confirmado)",
+  "link_fonte": "",
+  "media_id": "18110975747219301",
+  "link": "https://www.instagram.com/reel/DgNTEaUAQdN/",
+  "data_utc": "2026-11-26T14:16:55Z"
+ },
+ {
+  "id": "2026-11-26-1420-amazon-carro-ligado",
+  "titulo": "Entregador da Amazon deixa carro ligado na rua e leva bronca em Newark",
+  "editoria": "TRABALHO",
+  "fonte": "vídeo enviado pelo Israel / redes sociais (Newark, NJ)",
+  "link_fonte": "",
+  "media_id": "18033158690865613",
+  "link": "https://www.instagram.com/reel/DgNTLUThlQX/",
+  "data_utc": "2026-11-26T14:17:38Z"
+ },
+ {
+  "id": "2026-11-26-tempestade-ny-macys",
+  "titulo": "Tempestade adia desfile da Macy's e Nova York entra em emergência",
+  "editoria": "CLIMA",
+  "fonte": "Governo de Nova York / CBS News / ABC News",
+  "link_fonte": "https://www.cbsnews.com/newyork/news/macys-thanksgiving-day-parade-postponed/",
+  "media_id": "18119796230124003",
+  "link": "https://www.instagram.com/p/DgNTyNKmHUc/",
+  "data_utc": "2026-11-26T14:22:24Z"
+ },
+ {
+  "id": "2026-11-26-brasileiros-estados",
+  "titulo": "Flórida, Massachusetts e Califórnia têm metade dos brasileiros dos EUA",
+  "editoria": "COMUNIDADE",
+  "fonte": "Migration Policy Institute / Itamaraty",
+  "link_fonte": "https://www.migrationpolicy.org/article/brazilian-immigrants-united-states-2026",
+  "media_id": "18138710920681057",
+  "link": "https://www.instagram.com/p/DgNVD6JHFOl/",
+  "data_utc": "2026-11-26T14:33:33Z"
+ },
+ {
+  "id": "2026-11-26-1430-advogada-ice-estrategia",
+  "titulo": "Menos agentes do ICE nas ruas não significa menos prisões, alerta advogada",
+  "editoria": "IMIGRAÇÃO",
+  "fonte": "vídeo da advogada de imigração @cunhalaws enviado pelo Israel",
+  "link_fonte": "",
+  "media_id": "18102527012427757",
+  "link": "https://www.instagram.com/reel/DgNTQc5hrbk/",
+  "data_utc": "2026-11-26T14:49:25Z"
+ },
+ {
+  "id": "2026-11-26-1440-revere-golpe-idoso",
+  "titulo": "Brasileira de 66 anos de Revere é presa por golpe de US$ 1 milhão em idoso",
+  "editoria": "COMUNIDADE",
+  "fonte": "Procuradoria Federal de Massachusetts / Boston Globe / Boston.com (print @negocio_fechado_news enviado pelo Israel)",
+  "link_fonte": "https://www.boston.com/news/crime/2026/11/15/revere-woman-indicted-on-wire-fraud-after-alleged-brazilian-farmland-scheme/",
+  "media_id": "17922033126496531",
+  "link": "https://www.instagram.com/p/DgNTrGLD6HX/",
+  "data_utc": "2026-11-26T14:49:25Z"
+ },
+ {
+  "id": "2026-11-26-1450-spacex-1-milhao-satelites",
+  "titulo": "Musk recebe aval dos EUA para lançar 1 milhão de satélites no espaço",
+  "editoria": "ECONOMIA",
+  "fonte": "FCC / Space.com / NPR (print @metropoles enviado pelo Israel)",
+  "link_fonte": "https://www.space.com/space-exploration/launches-spacecraft/green-light-for-starmind-spacex-gets-approval-to-deploy-1-million-ai-satellites",
+  "media_id": "18061029836805434",
+  "link": "https://www.instagram.com/p/DgNT1Upl125/",
+  "data_utc": "2026-11-26T14:49:26Z"
+ }
 ]
