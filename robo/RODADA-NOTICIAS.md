@@ -67,3 +67,9 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
      aí escreva o erro em `dados/erros.log` (sem chave) e faça commit.
 8. Registre em `dados/postados.json`: {"id","titulo","editoria","fonte","link_fonte","media_id","link","data_utc"}. Commit e push.
 9. Não mande notificação para ninguém.
+
+## Carrossel (pedido do Israel, 26/11/2026)
+- Quando o assunto tem muita informação (ex.: carrossel de outro veículo), resuma tudo em NO MÁXIMO 5 telas.
+- Tela 1: capa com `robo/arte_card.py` (foto do fato + título padrão). Telas 2 a 5: `robo/arte_texto.py` (texto na identidade do Portal).
+  A última tela é sempre "O QUE ISSO MUDA PRA VOCÊ". Salve em dados/carrossel/AAAA-MM-DD-slug/1.jpg..5.jpg.
+- Publicar: `python3 robo/publicar_meta.py carrossel "URL1,URL2,URL3,URL4,URL5" "<legenda>"`.
