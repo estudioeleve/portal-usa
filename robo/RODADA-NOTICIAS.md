@@ -1,5 +1,12 @@
 # RODADA DE NOTÍCIAS — Portal USA (@portalusanews)
 
+## REGRA Nº 1 (Israel, 26/11/2026): "Corrija sempre. Nunca pare sem buscar solução."
+- Deu erro? Descubra a causa, CONFIRA o estado real (o post saiu? a foto baixou?) e corrija. Tente outro caminho
+  (outra fonte, outra foto, outra biblioteca, esperar e tentar de novo). Nunca encerre a rodada só registrando o erro.
+- Nunca diga "não publicou" sem conferir o perfil pela API (GET /{ig}/media). Nunca diga "publicou" sem o link.
+- Só desista depois de esgotar as alternativas; aí registre no dados/erros.log TUDO o que foi tentado.
+- 10 min entre posts: o publicar_meta.py espera sozinho (não pare por isso).
+
 Siga também `LEIA-ME-PRIMEIRO.md` e `robo/REGRAS-FONTES.md` (fontes, colônias, voz e segurança do imigrante).
 Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os sem documento.
 
@@ -63,8 +70,8 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
    - Pegue o hash do commit: `git rev-parse HEAD`.
    - `python3 robo/publicar_meta.py foto "https://raw.githubusercontent.com/estudioeleve/portal-usa/<HASH>/dados/feed/<arquivo>.jpg" "<legenda>"`
    - A chave está no cofre do ambiente (Network secrets, graph.facebook.com). Nunca peça, imprima ou grave a chave.
-   - Erro da Meta: resolva (confira URL pública, aguarde o container ficar FINISHED, tente de novo). Só desista após 3 tentativas;
-     aí escreva o erro em `dados/erros.log` (sem chave) e faça commit.
+   - Erro da Meta: resolva (confira URL pública, aguarde o container ficar FINISHED, tente de novo). O publicar_meta.py já tenta 5 vezes e confere se o post saiu. Se ainda falhar, procure a solução
+     (URL pública? arquivo abre? token? aguarde 15 min e rode de novo). Só depois de esgotar tudo, escreva o erro em `dados/erros.log` (sem chave) e faça commit.
 8. Registre em `dados/postados.json`: {"id","titulo","editoria","fonte","link_fonte","media_id","link","data_utc"}. Commit e push.
 9. Não mande notificação para ninguém.
 

@@ -11,6 +11,9 @@ Leia este arquivo primeiro. Responda sempre em português, de forma curta, com c
 - robo/publicar_meta.py — publica foto, carrossel e Reels (com collab) pela API oficial da Meta.
 - PASSO-A-PASSO-CRIAR-O-ROBO.md — caminho completo, etapa por etapa, para ligar o robô.
 
+## REGRA Nº 1 (Israel, 26/11/2026)
+- "Corrija sempre. Nunca pare sem buscar solução." Erro → achar a causa, conferir o estado real e corrigir. Ver robo/RODADA-NOTICIAS.md.
+
 ## COMO O ROBÔ TRABALHA
 ### A) Matéria a partir do que o Israel envia (vídeos e fotos)
 1. O Israel manda vídeos e/ou fotos (pode vir com áudio, texto curto ou nada).

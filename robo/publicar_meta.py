@@ -93,6 +93,23 @@ def _ja_publicado(legenda, horas=12):
     return None
 
 
+INTERVALO_MIN_S = 600  # 10 min entre posts: evita o bloqueio anti-spam da Meta
+
+
+def _esperar_intervalo():
+    """Se o último post saiu há menos de 10 min, ESPERA (não desiste) até completar o intervalo."""
+    try:
+        d = _req("GET", IG + "/media", {"fields": "timestamp", "limit": "1"})
+        ts = d["data"][0]["timestamp"][:19]
+        t = time.mktime(time.strptime(ts, "%Y-%m-%dT%H:%M:%S")) - time.timezone
+    except Exception:
+        return
+    falta = INTERVALO_MIN_S - (time.time() - t)
+    if falta > 0:
+        print(f"Aguardando {int(falta)} s para respeitar 10 min entre posts...", file=sys.stderr)
+        time.sleep(falta)
+
+
 def _parar_se_duplicado(legenda):
     m = _ja_publicado(legenda)
     if m:
@@ -101,13 +118,22 @@ def _parar_se_duplicado(legenda):
 
 
 def _publicar(container, legenda=""):
-    try:
-        r = _req("POST", IG + "/media_publish", {"creation_id": container})
-    except SystemExit as e:
-        # A Meta às vezes devolve erro mas o post SAI. Confere antes de qualquer nova tentativa.
-        time.sleep(20)
-        _parar_se_duplicado(legenda)
-        raise e
+    _parar_se_duplicado(legenda)
+    _esperar_intervalo()
+    ultimo = None
+    for tentativa in range(5):
+        try:
+            r = _req("POST", IG + "/media_publish", {"creation_id": container})
+            break
+        except SystemExit as e:
+            # A Meta às vezes devolve erro mas o post SAI. Confere antes de tentar de novo.
+            ultimo = e
+            time.sleep(30)
+            _parar_se_duplicado(legenda)
+            print(f"Erro da Meta (tentativa {tentativa + 1}/5); post não saiu, tentando de novo...", file=sys.stderr)
+            time.sleep(60 * (tentativa + 1))
+    else:
+        raise ultimo
     mid = r["id"]
     link = _req("GET", mid, {"fields": "permalink"}).get("permalink", "")
     print(json.dumps({"ok": True, "media_id": mid, "link": link}, ensure_ascii=False))
