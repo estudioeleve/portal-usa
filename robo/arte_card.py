@@ -221,22 +221,12 @@ def montar(editoria, titulo, fonte_txt, saida, foto=None, credito=None):
     if foto and credito:
         fcr = fonte("Poppins-Regular.ttf", 18)
         d.text((W - 24, 652), credito, font=fcr, fill=(225, 230, 240), anchor="rm")
-    # título: até 3 linhas do MESMO tamanho (padrão aprovado pelo Israel)
-    opcoes = []
-    for tam in range(66, 46, -2):
-        ft = fonte("Poppins-Bold.ttf", tam)
-        ls = quebrar_equilibrado(titulo, ft, W - 180)
-        if ls:
-            ws = [larg(l, ft) for l in ls]
-            opcoes.append((min(ws) / max(ws), tam, ft, ls))
-    if not opcoes:
-        raise SystemExit("Título longo demais para 3 linhas: encurte.")
-    boas = [o for o in opcoes if o[0] >= 0.88]
-    razao, tam, f, linhas = boas[0] if boas else max(opcoes, key=lambda o: (o[0], o[1]))
-    if razao < 0.80 and not FORCAR:
-        raise SystemExit(
-            "Título desequilibrado (linhas: " + " | ".join(linhas) + "). "
-            "Reescreva o título (mais curto ou com outras palavras) para as linhas ficarem do mesmo tamanho.")
+    # título: PADRÃO ÚNICO (robo/titulo.py — regra do Israel, 26/11/2026): sempre 3 linhas iguais,
+    # letra fixa 66, linha no máximo 825 px (margem mínima ~127 px), até 74 caracteres.
+    import titulo as padrao
+    linhas, _ = padrao.tres_linhas(titulo)
+    tam = padrao.TAM
+    f = fonte("Poppins-Bold.ttf", tam)
     # chip da editoria (posição fixa da moldura)
     fc = fonte("Poppins-Bold.ttf", 28)
     ed = editoria.upper()
@@ -244,7 +234,7 @@ def montar(editoria, titulo, fonte_txt, saida, foto=None, credito=None):
     x0, y0 = (W - tw) / 2 - 20, 868
     d.rectangle((x0, y0, x0 + tw + 40, y0 + 62), fill=RED)
     d.text((W / 2, y0 + 31), ed, font=fc, fill="white", anchor="mm")
-    alt_l = tam * 1.13
+    alt_l = tam * padrao.ENTRELINHA
     y_tit = 952
     for i, l in enumerate(linhas):
         texto_junto(d, W / 2, y_tit + i * alt_l + alt_l / 2, l, f, "white")

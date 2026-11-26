@@ -31,6 +31,7 @@ Leia este arquivo primeiro. Responda sempre em português, de forma curta, com c
 
 ## REGRAS VISUAIS (sempre)
 - Logo oficial do Portal USA, sem esticar nem montar com pedaços.
+- TÍTULO (feed e Reels, Israel 26/11/2026): sempre 3 linhas iguais, letra fixa 66, margem lateral mínima ~127 px, 60 a 74 caracteres. Conferir com robo/titulo.py.
 - Margem de segurança: nada encostado nas bordas; Reels: esquerda 100, direita 170, topo abaixo de 190, nada importante abaixo de ~1500.
 - Texto nunca em cima de rosto/cabeça. Texto centralizado, linhas equilibradas, poucas fontes (Poppins), poucas cores (só a paleta).
 - Mostrar sempre o assunto principal da imagem. Nunca usar foto ruim, nem aparecer repórter de outro veículo.

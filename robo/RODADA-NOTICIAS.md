@@ -15,9 +15,13 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
    Sem pânico, sem boato. Na dúvida, não publique.
 5. Arte: `python3 robo/arte_card.py "EDITORIA" "Título" "Fonte: NOME" dados/feed/AAAA-MM-DD-HHMM-slug.jpg`
    - EDITORIA curta: IMIGRAÇÃO, CONSULADO, TRABALHO, SEGURANÇA, CLIMA, COMUNIDADE, DIREITOS, ECONOMIA.
-   - Título forte, verdadeiro, até ~90 caracteres, sem ponto final.
-   - Título na arte: no máximo 3 linhas, todas do MESMO tamanho (padrão do Israel). Nunca linha cheia em cima
-     e 1 ou 2 palavras embaixo. O script recusa título desequilibrado: aí reescreva o título e rode de novo.
+   - Título forte, verdadeiro, sem ponto final.
+   - PADRÃO ÚNICO DO TÍTULO, feed E Reels (regra do Israel, 26/11/2026; modelo = post do xerife de Frederick):
+     SEMPRE 3 linhas com o mesmo tanto de texto; letra SEMPRE do mesmo tamanho (Poppins Bold 66, nunca menor nem maior);
+     linha no máximo 825 px (margem mínima ~127 px de cada lado — esse é o LIMITE, nunca mais perto da borda);
+     entre 60 e 74 caracteres contando espaços (74 = "Xerife aliado do ICE há 18 anos em Maryland perde a eleição para democrata").
+     Confira ANTES: `python3 robo/titulo.py "Título"`. Recusou → reescreva o título (não mude tamanho nem margem).
+     Reels: as 3 linhas para o HTML saem de `python3 robo/titulo.py "Título" --html` (já com <br>); a classe .ti dos modelos já está no padrão.
    - A arte segue a MOLDURA OFICIAL do feed (molduras/portal-usa-moldura-feed.png): foto cheia, logo no canto superior
      esquerdo, degradê no rodapé, chip vermelho, título e @portalusanews. Nunca outro layout.
    - FOTO DA FONTE (regra do Israel, 25/11/2026 — igual ao robô do Portal ONE News). Nunca postar só com a bandeira.
