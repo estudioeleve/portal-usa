@@ -29,6 +29,11 @@ Tudo em português. Público: imigrantes brasileiros nos EUA, principalmente os 
      c) Não serviu → outra matéria do mesmo fato: `python3 robo/coletar.py OUTRO_LINK --anexar`.
         Nenhuma serviu → NÃO publique. Nunca invente imagem, nunca use foto ruim.
      d) A foto preenche o quadro inteiro da moldura (zoom se precisar); texto nunca em cima de rosto ou cabeça.
+     d2) PERSONAGEM PRINCIPAL NO CENTRO (regra do Israel, 26/11/2026 — "seja mais cuidadoso, mais profissional"):
+        a pessoa da notícia fica CENTRALIZADA e grande no quadro, nunca no cantinho com um espaço vazio do lado.
+        O arte_card.py acha o rosto sozinho (robo/modelos_ia, YuNet) e centraliza; ele imprime "Enquadramento: personagem em x=..".
+        x tem que ficar perto de 540. Se não achar rosto ou errar, passe --centro=x,y (fração da foto, ex.: --centro=0.39,0.39).
+        OLHE a arte pronta antes de publicar: rosto no centro, inteiro, sem texto em cima. Errado → refaça. Nunca publique torto.
      e) Crédito na legenda e na arte: "Foto: NOME / VEÍCULO" (sem nome: "Foto: reprodução / VEÍCULO").
      f) Erro (regra do Israel, 25/11/2026: "quando der erro resolva e poste"): NÃO pare a rodada.
         Erro de rede no download (403/bloqueado) → tente a foto em outras matérias do mesmo fato

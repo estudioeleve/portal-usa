@@ -4,7 +4,9 @@ Arte de notícia do Portal USA (feed 1080x1350) só com Python + Pillow.
 Não precisa de navegador. Usa o logo oficial (identidade/portal-usa-logo-bandeira-3d.png), sem esticar.
 
 Uso:
-  python3 robo/arte_card.py "EDITORIA" "Título da notícia" "Fonte: Nome da fonte" saida.jpg [foto.jpg] ["Foto: crédito"]
+  python3 robo/arte_card.py "EDITORIA" "Título da notícia" "Fonte: Nome da fonte" saida.jpg [foto.jpg] ["Foto: crédito"] [--centro=x,y]
+  O personagem principal é centralizado sozinho (detecção de rosto). Se errar, passe --centro=x,y
+  (fração da foto: 0.5,0.3 = meio na horizontal, 30% do topo) com o ponto do rosto/assunto principal.
 Segue a moldura oficial do feed. FOTO OBRIGATÓRIA (regra do Israel, 25/11/2026): sem foto, o script recusa.
 """
 import os, sys
@@ -133,12 +135,54 @@ def bandeira_fundo():
     return ImageEnhance.Brightness(out).enhance(0.55)
 
 
+CENTRO_MANUAL = None  # (x, y) em fração da foto, via --centro=0.42,0.30
+
+
+def achar_personagem(im):
+    """Acha o rosto principal (maior rosto) com o detector YuNet do OpenCV (robo/modelos_ia).
+    Devolve (cx, cy, altura_rosto) em pixels ou None."""
+    try:
+        import cv2, numpy as np
+    except Exception:
+        return None
+    bgr = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
+    modelo = os.path.join(AQUI, "modelos_ia", "face_detection_yunet_2023mar.onnx")
+    try:
+        det = cv2.FaceDetectorYN.create(modelo, "", (im.width, im.height), 0.6)
+        rostos = det.detect(bgr)[1]
+    except Exception as e:
+        print("AVISO: detector de rosto falhou:", e)
+        return None
+    if rostos is None or len(rostos) == 0:
+        return None
+    x, y, w, h = max(rostos, key=lambda r: r[2] * r[3])[:4]
+    return (x + w / 2, y + h / 2, h)
+
+
 def foto_preenchida(caminho):
-    """Foto ocupando o quadro todo, sem esticar (corta as sobras, centralizada)."""
+    """Foto ocupando o quadro todo, sem esticar, com o PERSONAGEM PRINCIPAL CENTRALIZADO
+    (regra do Israel, 26/11/2026: nunca deixar a pessoa no cantinho com um espaço vazio do lado).
+    Centro: --centro=x,y (fração) > rosto detectado > meio da foto.
+    O rosto fica na faixa de cima (~32% da altura), longe do título no rodapé."""
     im = Image.open(caminho).convert("RGB")
+    alvo = None
+    if CENTRO_MANUAL:
+        alvo = (CENTRO_MANUAL[0] * im.width, CENTRO_MANUAL[1] * im.height, None)
+    else:
+        alvo = achar_personagem(im)
     esc = max(W / im.width, H / im.height)
+    if alvo and alvo[2]:
+        # rosto pequeno demais no quadro -> aproxima (rosto ~17% da altura da arte), sem perder nitidez demais
+        esc = max(esc, min(0.17 * H / alvo[2], esc * 1.8))
     im = im.resize((round(im.width * esc), round(im.height * esc)), Image.LANCZOS)
-    l, t = (im.width - W) // 2, (im.height - H) // 3
+    if alvo:
+        cx, cy = alvo[0] * esc, alvo[1] * esc
+        l = int(min(max(cx - W / 2, 0), im.width - W))
+        t = int(min(max(cy - 0.32 * H, 0), im.height - H))
+        print(f"Enquadramento: personagem em x={cx - l:.0f}, y={cy - t:.0f} (quadro {W}x{H})")
+    else:
+        print("AVISO: nenhum rosto achado. Confira se o assunto principal ficou no centro; se não, use --centro=x,y")
+        l, t = (im.width - W) // 2, (im.height - H) // 3
     return im.crop((l, t, l + W, t + H))
 
 
@@ -210,7 +254,12 @@ def montar(editoria, titulo, fonte_txt, saida, foto=None, credito=None):
 
 
 if __name__ == "__main__":
-    a = sys.argv[1:]
+    a = []
+    for x in sys.argv[1:]:
+        if x.startswith("--centro="):
+            CENTRO_MANUAL = tuple(float(v) for v in x.split("=", 1)[1].split(","))
+        else:
+            a.append(x)
     if len(a) < 4:
         raise SystemExit(__doc__)
     montar(a[0], a[1], a[2], a[3], a[4] if len(a) > 4 else None, a[5] if len(a) > 5 else None)

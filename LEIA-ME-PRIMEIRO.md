@@ -61,7 +61,7 @@ Opção 2: Windsor.ai (create_image_post / create_carousel_post / create_video_p
 - Quando o Israel mandar vídeo, foto e/ou print de outra matéria: ler o print/assistir o vídeo e fazer a notícia a partir disso (título, texto, "O que isso muda pra você", legenda). Conferir os fatos na web antes de publicar.
 - Vídeo VERTICAL: vai na moldura de Reels vertical INTEIRO, sem cortar nenhuma parte, aumentado o máximo possível dentro da moldura (sem esticar/deformar).
 - Vídeo HORIZONTAL: usa a moldura horizontal (portal-usa-moldura-reelsh).
-- Foto ou vídeo com pessoa: a pessoa principal fica CENTRALIZADA no quadro. Texto nunca em cima do rosto.
+- Foto ou vídeo com pessoa: a pessoa principal fica CENTRALIZADA no quadro (nunca no canto com espaço vazio do lado — Israel, 26/11/2026; o arte_card.py centraliza sozinho pelo rosto). Texto nunca em cima do rosto.
 - TUDO o que o Israel mandar (vídeo, foto, print, link) é para POSTAR (regra dele, 25/11/2026). Conferir os fatos e escrever com atribuição;
   o que não tiver confirmação oficial sai como relato ("vídeo enviado ao Portal USA", "alerta nas redes"), nunca como fato confirmado.
 - EDIÇÃO DE VÍDEO (regra do Israel, 25/11/2026): pode editar (ele gostou do Reels do USCIS), mas COM CUIDADO:
